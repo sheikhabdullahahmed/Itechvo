@@ -20,7 +20,6 @@ import { useState } from "react";
           placeholder="Message"
           value={text}
           onChange={handleChange}
-          rows="5"
         />
       </div>
     </div>

@@ -11,7 +11,6 @@ function Contact() {
       <h2 className="text-2xl font-semibold text-center text-gray-800 mb-4">Contact</h2>
       <p className="text-center text-gray-600 mb-10">Contact Us</p>
 
-      {/* Responsive Grid Layout for Cards and Form */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 mb-10">
         
         {/* Address Card */}
@@ -62,9 +61,7 @@ function Contact() {
                 <input className="appearance-none block w-full  font-medium  focus:ring-blue-500 focus:outline-none focus:ring-1  border border-gray-300  focus:outline-none focus:ring- text-gray-700 h-16 py-3 px-4 mb-5 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-password" type="text" placeholder="Subject" />
               </div>
             </div>
-            <div>
             <Textareaa />
-            </div>
             <div className="flex justify-center">
               <button className="w-64 mt-5 bg-blue-500 h-11 border border-black rounded-xl font-bold text-white text-lg">Send Message</button>
             </div>
