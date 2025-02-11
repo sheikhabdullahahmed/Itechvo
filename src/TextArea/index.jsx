@@ -12,11 +12,11 @@ import { useState } from "react";
   return (
     <div>
       <div className="flex items-center justify-center ">
-      <div className="w-full max-w-lg p-2 bg-white ">
+      <div className="w-full  max-w-lg   ">
         
         <textarea
           id="message"
-          className="w-full p-3 border border-gray-300  focus:outline-none focus:ring-1 focus:ring-blue-500"
+          className="w-full bg-white p-3 h-46 border border-gray-300  focus:outline-none focus:ring-1 focus:ring-blue-500"
           placeholder="Message"
           value={text}
           onChange={handleChange}
