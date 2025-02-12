@@ -7,11 +7,11 @@ import Textareaa from '../../Textarea';
 
 function Contact() {
   return (
-    <div className="container mx-auto p-6">
+    <div className="container  mx-auto p-6">
       <p className="text-center px-2 py-1  text-indigo-600 w-32 mx-auto font-semibold rounded-2xl bg-gray-200 mb-4">Contact </p>
       <h2 className="text-2xl font-semibold   text-center  text-blue-900 mb-12">Contact Us</h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 mb-10">
+      <div className="grid  grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 mb-6">
 
         <div className=" bg-gray-100 p-6 drop-shadow-md flex flex-col items-center" data-aos="fade" data-aos-delay="200">
           <IoLocationOutline className="text-4xl text-blue-600 mb-4" />

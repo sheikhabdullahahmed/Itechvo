@@ -9,11 +9,11 @@ import Home from './Components/Home/Home.jsx'
 
 const App = () => {
   return <div>
-  <Home/>
+  {/* <Home/>
     <Contact/>
     <About/>
     <Footerinput/>
-    <Faqs/>
+    <Faqs/> */}
     <Footer/>
 
   </div>;
