@@ -3,60 +3,61 @@ import React from "react";
 export const Footer = () => {
   return (
     <>
-      <footer className="relative flex justify-center      pb-8 pt-18  lg:pb-20 lg:pt-[120px]">
-        <div className="container ">
+      <footer className="relative flex justify-center      pb-8 pt-18  lg:pb-20 lg:pt-[120px] ">
+        <div className="container border-b border-gray-300 ">
           <div className=" flex flex-col md:flex-row lg:justify-center  ">
-            <div className="w-full px-4 lg:py-0 py-3    sm:w-2/3 lg:w-3/12">
+            <div className="w-full px-4 lg:py-0     sm:w-2/3 lg:w-3/12">
               <div className="lg:my-2 w-full">
                 <a href="/#" className="mb-6 inline-block ">
-                 <span className=" font-semibold text-2xl  text-blue-900">FLex Start</span>
+                  <span className=" font-semibold text-2xl  text-[#A249F6]">FLex Start</span>
 
                 </a>
                 <p className="mb-5 text-base ">
-                A108 Adam Street <br/>
-                New York, NY 535022
+                Karachi, Pakistan <br />
                 </p>
                 <p className="flex items-center text-sm font-medium  ">
                   <span className="">
                   </span>
-                  <span className="">Phone: +1 5589 55488 55</span>
+                  <span className="">Phone:0327-8244849</span>
                 </p>
-                
+
               </div>
               <p className="flex items-center text-sm font-medium  ">
-                  <span className="     ">
-                  </span>
-                  <span className="">Email:info@example.com</span>
-                </p>
-             
+                <span className="     ">
+                </span>
+                <span className="">Email:info@example.com</span>
+              </p>
+
             </div>
 
 
-            <LinkGroup   header="Company">
-              <NavLink  link="/#" label="About TailGrids" />
-              <NavLink link="/#" label="Contact & Support" />
-              <NavLink link="/#" label="Success History" />
-              <NavLink link="/#" label="Setting & Privacy" />
-            </LinkGroup>
-            <LinkGroup header="Quick Links">
-              <NavLink link="/#" label="Premium Support" />
-              <NavLink link="/#" label="Our Services" />
-              <NavLink link="/#" label="Know Our Team" />
-              <NavLink link="/#" label="Download App" />
+            <LinkGroup header="Useful Links"  >
+              {/* <h3 className="text-blue-900 text-xl font-semibold ">Useful Links</h3> */}
+              <NavLink link="/#" label="Home" />
+              <NavLink link="/#" label="About Us" />
+              <NavLink link="/#" label="Services" />
+              <NavLink link="/#" label="Terms of Service" />
             </LinkGroup>
 
-            <div className="w-full  px-3 sm:w-1/2  lg:w-4/12">
-              <div className="mb-10 w-full">
-                <h4 className="mb-7 text-lg font-semibold text-blue-900 ">
+            <LinkGroup header="Our Services" >
+              <NavLink link="/#" label="Web Design" />
+              <NavLink link="/#" label="Web Development" />
+              <NavLink link="/#" label="Product Manage" />
+              <NavLink link="/#" label="Marketing" />
+            </LinkGroup>
+
+            <div className="w-full   px-3 sm:w-1/2  lg:w-4/12">
+              <div className="mb-10  w-full">
+                <h4 className="mb-7 text-lg font-semibold text-[#A249F6] ">
                   Follow Us On
                 </h4>
                 <p className="text-base mb-6  ">
-                  &copy; Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies
+                  &copy; Let us be the partner that helps your brand succeed.
                 </p>
-                <div className="mb-6 text-blue-500   flex items-center">
+                <div className="mb-6 text-[#A249F6] hover:cursor-pointer      flex items-center">
                   <a
                     href="javascript:void(0)"
-                    className="mr-3 flex h-8 w-8 items-center justify-center rounded border-gray-300 border  sm:mr-4 lg:mr-3 xl:mr-4"
+                    className="mr-3 flex h-10 w-10 items-center justify-center hover:bg-[#CCACEB] hover:text-white rounded border-gray-300 border  sm:mr-4 lg:mr-3 xl:mr-4"
                   >
                     <svg
                       width="8"
@@ -69,7 +70,7 @@ export const Footer = () => {
                   </a>
                   <a
                     href="javascript:void(0)"
-                    className="mr-3 flex h-8 w-8 items-center justify-center rounded border  border-gray-300   sm:mr-4 lg:mr-3 xl:mr-4"
+                    className="mr-3 flex h-10 w-10 items-center justify-center  hover:bg-[#CCACEB] hover:text-white rounded border  border-gray-300   sm:mr-4 lg:mr-3 xl:mr-4"
                   >
                     <svg
                       width="16"
@@ -82,7 +83,7 @@ export const Footer = () => {
                   </a>
                   <a
                     href="javascript:void(0)"
-                    className="mr-3 flex h-8 w-8 items-center justify-center rounded border border-gray-300    sm:mr-4 lg:mr-3 xl:mr-4"
+                    className="mr-3 flex h-10 w-10 items-center justify-center  hover:bg-[#CCACEB] hover:text-white rounded border border-gray-300    sm:mr-4 lg:mr-3 xl:mr-4"
                   >
                     <svg
                       width="16"
@@ -95,7 +96,7 @@ export const Footer = () => {
                   </a>
                   <a
                     href="javascript:void(0)"
-                    className="mr-3 flex h-8 w-8 items-center justify-center rounded border border-gray-300  sm:mr-4 lg:mr-3 xl:mr-4"
+                    className="mr-3 flex h-10 w-10 items-center justify-center  hover:bg-[#CCACEB] hover:text-white rounded border border-gray-300  sm:mr-4 lg:mr-3 xl:mr-4"
                   >
                     <svg
                       width="14"
@@ -177,7 +178,7 @@ export default Footer;
 const LinkGroup = ({ children, header }) => {
   return (
     <>
-      <div className="w-full px-4 sm:w-1/2 lg:w-2/12">
+      <div className="w-full px-4 sm:w-1/2 lg:w-2/12 ">
         <div className="mb-10 w-full">
           <h4 className="mb-9 text-lg font-semibold text-dark ">
             {header}

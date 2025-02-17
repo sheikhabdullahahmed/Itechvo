@@ -6,15 +6,18 @@ import Footerinput from './Components/Footerinput/index.jsx'
 import Footer from './Components/Footer/index.jsx';
 import Faqs from "./Components/Faqs/index.jsx"
 import Home from './Components/Home/Home.jsx'
+import ScrollToTopButton from './Components/ScrollButton/index.jsx';
 
 const App = () => {
   return <div>
-  {/* <Home/>
+    
+  <Home/>
     <Contact/>
     <About/>
+    <Faqs/>
     <Footerinput/>
-    <Faqs/> */}
     <Footer/>
+    <ScrollToTopButton />
 
   </div>;
 };

@@ -6,8 +6,8 @@ function index() {
       <section class="text-gray-700">
         <div class="container px-5 py-24 mx-auto">
           <div class="text-center mb-20">
-            <p className="text-center px-2 py-1  text-indigo-600 w-32 mx-auto font-semibold rounded-2xl bg-gray-200 mb-4">F.A.Q </p>
-            <h2 className="text-4xl font-semibold   text-center  text-blue-900 mb-12">Frequently Asked Questions</h2>
+            <p className="text-center px-2 py-1  text-purple-500 w-32 mx-auto font-semibold rounded-2xl bg-gray-200 mb-4">F.A.Q </p>
+            <h2 className="text-3xl md:text-4xl font-semibold   text-center  text-purple-900 mb-12">Frequently Asked Questions</h2>
 
           </div>
           <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
