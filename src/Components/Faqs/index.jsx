@@ -2,7 +2,7 @@ import React from 'react'
 
 function index() {
   return (
-    <div>
+    <div id='faqs'>
       <section class="text-gray-700">
         <div class="container px-5 py-24 mx-auto">
           <div class="text-center mb-20">

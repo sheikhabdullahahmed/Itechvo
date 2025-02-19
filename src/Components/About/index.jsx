@@ -5,7 +5,7 @@ import { FaArrowRight } from "react-icons/fa6";
 
 function index() {
   return (
-    <div>
+    <div id='about'>
       <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-8">
         <div className="md:w-11/12 mx-auto flex flex-col lg:flex-row md:flex-col justify-between items-center  ">
           {/* Text Section */}

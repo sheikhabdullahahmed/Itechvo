@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import logo from "../../assets/logo.png";
 import { FaBars } from "react-icons/fa";
 import React from "react";
+import { Link } from 'react-router-dom';
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,37 +31,27 @@ const Navbar = () => {
       <div className="flex items-center justify-start p-1 logo">
         <img src={logo} alt="logo" className="w-auto h-32" />
       </div>
-
       <ul
-        className={`nav-link list-none flex justify-center space-x-9 font-semibold  flex-grow ${isOpen ? "flex-col absolute bg-white w-88 h-[60vh] top-32 right-0 z-10 px-5 space-y-3" : "hidden md:flex"}`}
+        className={`nav-link list-none flex justify-center space-x-9 nav-links font-semibold flex-grow ${isOpen ? "flex-col absolute bg-white w-88 h-[60vh] top-32 right-0 z-10 px-5 space-y-3" : "hidden md:flex"}`}
       >
         <li>
-          <a href="#home" className="text-base text-purple-900 transition-colors hover:text-purple-400" >
-            Home
-            </a>
+          <a href="/" className="text-base text-purple-900 transition-colors hover:text-purple-400">Home</a>
         </li>
         <li>
-          <a href="#about" className="text-base text-purple-900 transition-colors hover:text-purple-400 ">
-            About
-          </a>
+          <a href="#about" className="text-base text-purple-900 transition-colors hover:text-purple-400">About</a>
         </li>
         <li>
-          <a href="#services" className="text-base text-purple-900 transition-colors hover:text-purple-400">
-            Services
-          </a>
+          <a href="#service" className="text-base text-purple-900 transition-colors hover:text-purple-400">Service</a>
         </li>
         <li>
-          <a href="#faqs" className="text-base text-purple-900 transition-colors hover:text-purple-400">
-            FAQs
-          </a>
+          <a href="#contact" className="text-base text-purple-900 transition-colors hover:text-purple-400">Contact</a>
         </li>
         <li>
-          <a href="#contact" className="text-base text-purple-900 transition-colors hover:text-purple-400">
-            Contact
-          </a>
+          <a href="#faqs" className="text-base text-purple-900 transition-colors hover:text-purple-400">Faqs</a>
         </li>
       </ul>
-      <button className="hidden px-4 py-2 text-lg text-white transition-all bg-purple-600 rounded-md hover:bg-purple-300 md:inline-block">
+
+      <button className="hidden lg:text-base lg:px-6 lg:py-3 hover:cursor-pointer md:px-6 md:py-3 px-4 py-3 bg-[#A249F6] text-white font-base rounded hover:bg-[#CCACEB] inline-flex items-center gap-2 group md:inline-block">
         Get Started
       </button>
 

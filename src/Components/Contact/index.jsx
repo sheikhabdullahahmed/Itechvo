@@ -7,6 +7,7 @@ import Textareaa from '../../Textarea';
 
 function Contact() {
   return (
+    <div id='contact'>
     <div className="container   mx-auto p-6">
       <p className="text-center px-2 py-1  text-purple-500 hover:cursor-pointer w-32 mx-auto font-semibold rounded-2xl bg-gray-200 mb-4">Contact </p>
       <h2 className="text-2xl font-semibold   text-center  text-purple-900 mb-12">Contact Us</h2>
@@ -68,6 +69,7 @@ function Contact() {
           </div>
         </form>
       </div>
+    </div>
     </div>
   );
 }
