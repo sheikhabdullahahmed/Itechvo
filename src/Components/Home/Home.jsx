@@ -5,29 +5,11 @@ import { FaArrowRight } from "react-icons/fa6";
 // import { MdOutlineAudiotrack } from "react-icons/md";
 import hero from '../../assets/hero.png'
 import { IoMdMusicalNotes } from "react-icons/io";
-import { useState } from "react";
+import VideoPlayer from "../Video";
 
 function Home() {
 
-  const [isVideoVisible, setIsVideoVisible] = useState(false);  // State to show the video
-  const [isPlaying, setIsPlaying] = useState(false);  
-
-  const handleButtonClick = () => {
-    const videoElement = document.getElementById("video");
-
-    if (!isVideoVisible) {
-      setIsVideoVisible(true); // Make the video visible
-      videoElement.play();     // Play the video
-      setIsPlaying(true);      // Update the state to show it's playing
-    } else if (isPlaying) {
-      videoElement.pause();    // Pause the video
-      setIsPlaying(false);     // Update the state to show it's paused
-    } else {
-      videoElement.play();     // Play the video again if paused
-      setIsPlaying(true);      // Update the state to show it's playing
-    }
-  };
-
+  
   return (
     <div id="home">
     <div
@@ -72,23 +54,6 @@ function Home() {
               <span className="">Get Started</span>
               <FaArrowRight className="group-hover:ml-2 transition-all" />
             </button>
-{/* 
-            <button  className="mx-5 hover:cursor-pointer font-bold lg:text-base text-base inline-flex items-center gap-2 text-gray-600 ">
-              < IoMdMusicalNotes className="lg:text-2xl text-base  text-[#A249F6]" /> Watch Video
-            </button> */}
-            <button
-        className="mx-5 hover:cursor-pointer font-bold lg:text-base text-base inline-flex items-center gap-2 text-gray-600"
-        onClick={handleButtonClick} // Call handleButtonClick when clicked
-      >
-        <IoMdMusicalNotes className="lg:text-2xl text-base text-[#A249F6]" />
-        {isPlaying ? "Pause Video" : "Watch Video"}
-      </button>
-      {isVideoVisible && (
-        <video id="video" width="100%" controls>
-          <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      )}
 
           </div>
         </div>

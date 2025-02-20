@@ -52,35 +52,28 @@ const Services = () => {
   };
 
   return (
-    <div id="service ">
     <div  className="px-4 py-8 text-center">
-      <h1 className="inline-block px-6 py-2 mx-auto mb-4 font-semibold text-purple-500 bg-gray-200 rounded-2xl">SERVICES</h1>
+      <h1 id='services' className="inline-block px-6 py-2 mx-auto mb-4 font-semibold text-purple-500 bg-gray-200 rounded-2xl">SERVICES</h1>
       <h2 className="mb-10 text-3xl font-semibold text-purple-900 md:text-4xl">Check Our Services</h2>
 
-      <div className="grid max-w-screen-xl grid-cols-1 gap-6 mx-auto sm:grid-cols-2 lg:grid-cols-4">
+      <div className="grid max-w-screen-xl grid-cols-1 gap-7 mx-auto sm:grid-cols-2 lg:grid-cols-4">
         {servicesData.map((service, index) => (
           <div
             key={index}
-            className="p-6 rounded-xl shadow-md flex flex-col justify-between h-full transform transition duration-300 ease-in-out hover:translate-y-[-5px] hover:shadow-xl hover:cursor-pointer"
-            style={{
-              borderBottom: `4px solid ${service.color}`,
-              backgroundColor: hoveredService === index ? service.color : "", // Apply background color based on hover state
-            }}
-            onMouseEnter={() => setHoveredService(index)} // Set hover state for specific service
-            onMouseLeave={() => setHoveredService(null)} // Remove hover state
+             className="p-6 rounded-xl shadow-md flex flex-col justify-between h-full transform transition-all duration-300 ease-in-out  hover:scale-113 hover:border hover:border-solid hover:border-black hover:shadow-xl hover:cursor-pointer"
+            onMouseEnter={() => setHoveredService(index)}
+            onMouseLeave={() => setHoveredService(null)} 
           >
             <div
               className="mb-4 text-4xl"
-              style={{
-                color: service.color, // Set color of icon based on service color
-              }}
+             
             >
               {service.icon}
             </div>
-            <h3 className="text-xl font-semibold text-gray-700 transition duration-300 ease-in-out hover:text-white">
+            <h3 className="text-xl font-semibold text-gray-700 transition duration-300 ease-in-out ">
               {service.title}
             </h3>
-            <p className="mt-2 text-sm text-gray-600 transition duration-300 ease-in-out hover:text-white">
+            <p className="mt-2 text-sm text-gray-600 transition duration-300 ease-in-out ">
               {service.description}
             </p>
             <button
@@ -113,7 +106,6 @@ const Services = () => {
           </div>
         </div>
       )}
-    </div>
     </div>
   );
 };

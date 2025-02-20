@@ -11,11 +11,13 @@ import Footer from './Components/Footer/index.jsx';
 import Footerr from './Components/Footerr/Footerr.jsx'
 import ScrollToTopButton from './Components/ScrollButton/index.jsx';
 import { BrowserRouter as Router } from 'react-router-dom';
+import Email from './Components/Email/index.jsx'
 
 const App = () => {
   return (
     <Router>
       <Navbar />
+      {/* <Email /> */}
       <Home />
       <About />
       <AboutCard />

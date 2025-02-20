@@ -14,57 +14,53 @@ function index() {
             <div class="w-full lg:w-1/2 px-4 py-2">
               <details class="faq-item mb-4 group">
                 <summary class="font-semibold py-2 px-4 cursor-pointer text-blue-900 transition-all duration-300 border-b border-gray-300">
-                  Non consectetur a erat nam at lectus urna duis?
+                  1.What type of services do you offer?
                 </summary>
                 <span class="block px-4 py-2 transition-all duration-300 group-open:max-h-full group-open:opacity-100 group-open:block opacity-0 max-h-0 overflow-hidden">
-                  Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                  itechvo offers a range of services starting from content writing, website development to any digital services. We provide solutions according to your needs. Explore our page and get started now!
                 </span>
               </details>
               <details class="faq-item mb-4 group">
                 <summary class="font-semibold py-2 px-4 cursor-pointer transition-all text-blue-900 duration-300 border-b border-gray-300">
-                  Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque??
+                  2.How can I get started with itechvo?
                 </summary>
                 <span class="block px-4 py-2 transition-all duration-300 group-open:max-h-full group-open:opacity-100 group-open:block opacity-0 max-h-0 overflow-hidden">
-                  Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  Getting started is simple! Contact us through our website or social media platforms, and our team will schedule a consultation to understand your business needs.
 
                 </span>
               </details>
               <details class="faq-item mb-4 group">
                 <summary class="font-semibold py-2 px-4 cursor-pointer transition-all duration-300 text-blue-900 border-b border-gray-300">
-                  Dolor sit amet consectetur adipiscing elit pellentesque?
+                  3.Do you offer customized solutions?
                 </summary>
                 <span class="block px-4 py-2 transition-all duration-300 group-open:max-h-full group-open:opacity-100 group-open:block opacity-0 max-h-0 overflow-hidden">
-                  Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-
+                  Absolutely! All our solutions are tailored to meet the unique goals and challenges of your business.
                 </span>
               </details>
             </div>
             <div class="w-full lg:w-1/2 px-4 py-2">
               <details class="faq-item mb-4 group">
                 <summary class="font-semibold py-2 px-4 cursor-pointer transition-all duration-300 border-b text-blue-900 border-gray-300">
-                  Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                  4.How long to complete a project?
                 </summary>
                 <span class="block px-4 py-2 transition-all duration-300 group-open:max-h-full group-open:opacity-100 group-open:block opacity-0 max-h-0 overflow-hidden">
-                  Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-
+                  The timeline depends on the type and complexity of the project. We ensure timely delivery without compromising on quality. Feel free to discuss deadlines during the consultation.
                 </span>
               </details>
               <details class="faq-item mb-4 group">
                 <summary class="font-semibold py-2 px-4 cursor-pointer transition-all duration-300 border-b text-blue-900 border-gray-300">
-                  Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+                  5.What industries do you work with?
                 </summary>
                 <span class="block px-4 py-2 transition-all duration-300 group-open:max-h-full group-open:opacity-100 group-open:block opacity-0 max-h-0 overflow-hidden">
-                  Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
-
+                  We work with businesses across various industries, including e-commerce, travel agency, technology, education, and more.
                 </span>
               </details>
               <details class="faq-item mb-4 group">
                 <summary class="font-semibold py-2 px-4 cursor-pointer transition-all duration-300 text-blue-900 border-b border-gray-300">
-                  Perspiciatis quod quo quos nulla quo illum ullam?
+                  6.What makes your agency different?
                 </summary>
                 <span class="block px-4 py-2 transition-all duration-300 group-open:max-h-full group-open:opacity-100 group-open:block opacity-0 max-h-0 overflow-hidden">
-                  Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed in suscipit sequi. Distinctio ipsam dolore et.
-
+                  Delivering a wide range of marketing services and providing result driven strategies is what makes us stand out from others. Our experienced and dedicated team mates not only help you master the subject but also guarantee long term commitment.
                 </span>
               </details>
             </div>
