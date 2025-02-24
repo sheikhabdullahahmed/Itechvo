@@ -55,7 +55,7 @@ function index() {
                   We work with businesses across various industries, including e-commerce, travel agency, technology, education, and more.
                 </span>
               </details>
-              <details class="faq-item mb-4 group">
+              <details class="faq-item mb-4  group">
                 <summary class="font-semibold py-2 px-4 cursor-pointer transition-all duration-300 text-blue-900 border-b border-gray-300">
                   6.What makes your agency different?
                 </summary>

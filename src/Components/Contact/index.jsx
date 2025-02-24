@@ -3,7 +3,7 @@ import { IoLocationOutline } from 'react-icons/io5';
 import { FiPhoneCall } from 'react-icons/fi';
 import { MdOutlineMarkEmailUnread } from 'react-icons/md';
 import { FaUserClock } from 'react-icons/fa';
-import Textareaa from '../../Textarea';
+import Textareaa from '../../TextArea/textarea';
 import { useRef } from "react"
 import emailjs from '@emailjs/browser';
 
@@ -19,7 +19,7 @@ function Contact() {
       })
       .then(
         () => {
-          console.log('SUCCESS!');
+          alert("succes")
         },
         (error) => {
           console.log('FAILED...', error.text);

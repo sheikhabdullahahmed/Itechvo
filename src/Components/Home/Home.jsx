@@ -5,7 +5,6 @@ import { FaArrowRight } from "react-icons/fa6";
 // import { MdOutlineAudiotrack } from "react-icons/md";
 import hero from '../../assets/hero.png'
 import { IoMdMusicalNotes } from "react-icons/io";
-import VideoPlayer from "../Video";
 
 function Home() {
 
@@ -32,10 +31,10 @@ function Home() {
       transform: translateY(0);
     }
     50% {
-      transform: translateY(-20px); /* Move up */
+      transform: translateY(-20px);
     }
     100% {
-      transform: translateY(0); /* Return to original position */
+      transform: translateY(0); 
     }
   }
 
