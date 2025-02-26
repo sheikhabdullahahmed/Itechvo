@@ -6,7 +6,7 @@ function index() {
       <section class="text-gray-700">
         <div class="container px-5 py-24 mx-auto">
           <div class="text-center mb-20">
-            <p className="text-center px-2 py-1  text-purple-500 w-32 mx-auto font-semibold rounded-2xl bg-gray-200 mb-4">F.A.Q </p>
+            <p className="text-center px-2 py-1  text-purple-500 w-32 mx-auto font-semibold rounded-2xl bg-gray-200 mb-5">F.A.Q </p>
             <h2 className="text-3xl md:text-4xl font-semibold   text-center  text-purple-900 mb-12">Frequently Asked Questions</h2>
 
           </div>
@@ -29,7 +29,7 @@ function index() {
 
                 </span>
               </details>
-              <details class="faq-item mb-4 group">
+              <details class="faq-item  group">
                 <summary class="font-semibold py-2 px-4 cursor-pointer transition-all duration-300 text-blue-900 border-b border-gray-300">
                   3.Do you offer customized solutions?
                 </summary>

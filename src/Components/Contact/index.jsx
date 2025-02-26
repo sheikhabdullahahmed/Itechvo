@@ -66,7 +66,7 @@ function Contact() {
         </div>
 
         <div className="lg:col-span-2 sm:col-span-2    w-full p-6  rounded-lg ">
-          <form ref={form} onSubmit={sendEmail} className="w-full px-6 py-6 bg-gray-100  mx-auto max-w-lg">
+          <form id="form" ref={form} onSubmit={sendEmail} className="w-full px-6 py-6 bg-gray-100  mx-auto max-w-lg">
             <div className="flex flex-wrap -mx-3 mb-6">
               <div className="w-full md:w-1/2 px-2 mb-6 md:mb-0">
                 <input name="to_name" className="appearance-none block w-full  bg-white font-medium h-16 text-gray-700   focus:ring-blue-500 focus:outline-none focus:ring-1 border border-gray-300  focus:outline-none focus:ring-   py-3 px-4 leading-tight focus:border-gray-500 focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Name" />

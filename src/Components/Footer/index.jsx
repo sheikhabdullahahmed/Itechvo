@@ -9,20 +9,20 @@ export const Footer = () => {
             <div className="w-full px-4 lg:py-0     sm:w-2/3 lg:w-3/12">
               <div className="lg:my-2 w-full">
                 <a href="/#" className="mb-6 inline-block ">
-                  <span className=" font-semibold text-2xl  text-[#A249F6]">FLex Start</span>
+                  <span className=" font-semibold text-2xl  text-[#A249F6]">itechvo</span>
 
                 </a>
-                <p className="mb-5 text-base ">
+                <p className="mb-2   text-base ">
                   Karachi, Pakistan <br />
                 </p>
-                <p className="flex items-center text-sm font-medium  ">
+                <p className="flex items-center mb-2 text-sm font-medium  ">
                   <span className="">
                   </span>
-                  <span className="">Phone:0327-8244849</span>
+                  <span className="">Phone:+92 327-8244849</span>
                 </p>
 
               </div>
-              <p className="flex items-center text-sm font-medium  ">
+              <p className="flex items-center mb-2 text-sm font-medium  ">
                 <span className="     ">
                 </span>
                 <span className="">Email:itechvo236@gmail.com</span>
@@ -48,11 +48,11 @@ export const Footer = () => {
 
             <div className="w-full   px-3 sm:w-1/2  lg:w-4/12">
               <div className="mb-10  w-full">
-                <h4 className="mb-7 text-lg font-semibold text-[#A249F6] ">
+                <h4 className="mb-4 text-lg font-semibold text-[#A249F6] ">
                   Follow Us On
                 </h4>
-                <p className="text-base mb-6  ">
-                  &copy; Let us be the partner that helps your brand succeed.
+                <p className="text-base  flex justify-center items-center  mb-6     ">
+                  &copy; Creating a brand identity that resonates takes time and effort, but it’s worth it. When you align your brand with your audience’s .
                 </p>
                 <div className="mb-6 text-[#A249F6] hover:cursor-pointer      flex items-center">
                   <a

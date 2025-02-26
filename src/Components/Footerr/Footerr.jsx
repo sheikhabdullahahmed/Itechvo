@@ -9,21 +9,9 @@ const Footer = () => {
             <p className="text-xs md:text-sm lg:text-base">
                 &copy; Copyright {currentYear}{" "}
                 <a href="#" className="text-blue-500 hover:underline">
-                    FlexStart
+                    itechvo
                 </a>{" "}
                 All Rights Reserved
-            </p>
-
-            {/* Credit */}
-            <p className="mt-2 text-xs sm:text-sm lg:text-base">
-                Designed by{" "}
-                <a href="#" className="text-blue-500 hover:underline">
-                    Ahmed & Abdullah
-                </a>{" "}
-                Distributed by{" "}
-                <a href="#" className="text-blue-500 hover:underline">
-                    Bano Qabil
-                </a>
             </p>
         </footer>
     );

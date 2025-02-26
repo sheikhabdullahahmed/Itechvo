@@ -3,7 +3,7 @@ import React from 'react'
 function index() {
   return (
     <div>
- <div class="py-9 px-6    mx-auto bg-gray-100 border border-gray-200 h-full ">
+ <div class="py-9 px-8    mx-auto bg-gray-100 border border-gray-200 h-full ">
   <h4 class="text-2xl font-semibold text-center text-purple-900 mb-4">Join Our Newsletter</h4>
   <p class="text-center text-gray-600 mb-6">Subscribe to our newsletter and receive the latest news about our products and services!</p>
   <div class="flex justify-center ">

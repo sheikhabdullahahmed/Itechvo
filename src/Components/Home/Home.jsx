@@ -49,11 +49,12 @@ function Home() {
             <p className=" text-gray-600 lg:text-lg text-lg md:text-base lg:my-4 mt-2 mb-5  ">
               We’re your marketing partner dedicated to making your business stand out and achieve success.
             </p>
+            <a  href="#form">
             <button className="lg:text-base lg:px-6 lg:py-3 hover:cursor-pointer md:px-6 md:py-3 px-4 py-3 bg-[#A249F6] text-white font-base rounded hover:bg-[#CCACEB] inline-flex items-center gap-2 group">
               <span className="">Get Started</span>
               <FaArrowRight className="group-hover:ml-2 transition-all" />
             </button>
-
+            </a>
           </div>
         </div>
       </div>
