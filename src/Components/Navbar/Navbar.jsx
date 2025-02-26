@@ -49,7 +49,7 @@ const Navbar = () => {
           <a href="#services" className="text-base text-purple-900 transition-colors hover:text-purple-400"   onClick={() => setIsOpen(false)} >Service</a>
         </li>
         <li>
-          <a href="#contact" className="text-base text-purple-900 transition-colors hover:text-purple-400"  onClick={() => setIsOpen(false)} >Contact</a>
+          <a href="#contact" className="text-base text-purple-900 transition-colors hover:text-purple-400"  onClick={() => setIsOpen(false)}>Contact</a>
         </li>
         <li>
           <a href="#faqs" className="text-base text-purple-900 transition-colors hover:text-purple-400"  onClick={() => setIsOpen(false)}>FAQs</a>
