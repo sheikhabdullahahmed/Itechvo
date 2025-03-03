@@ -5,7 +5,7 @@ const OurValues = () => {
         {
             id: 1,
             image: "https://themewagon.github.io/FlexStart/assets/img/values-1.png",
-            title: "Why Choose Us?",
+            title: "Why Choose us?",
             description:
                 "At itechvo, we don’t just provide services; we build lasting partnerships with our clients. Our commitment to innovation and creativity",
         },
@@ -33,9 +33,9 @@ const OurValues = () => {
     ];
 
     const stats = [
-        { id: 1, icon: "😊", value: "232", label: "Happy Clients" },
-        { id: 2, icon: "📋", value: "521", label: "Projects" },
-        { id: 3, icon: "🎧", value: "1463", label: "Hours Of Support" },
+        { id: 1, icon: "😊", value: "200+", label: "Happy Clients" },
+        { id: 2, icon: "📋", value: "500+", label: "Projects" },
+        { id: 3, icon: "🎧", value: "1463+", label: "Hours Of Support" },
         { id: 4, icon: "👥", value: "15", label: "Hard Workers" },
     ];
 
